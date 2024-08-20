@@ -1,1 +1,12 @@
-# DapperMVC
+Project Name: DapperCRUD
+
+Database Setup:
+
+Create a new database named 'DapperMVCDemo' in SQL Server.
+Execute the DapperCRUD_Script.sql file on your SQL Server to set up the necessary database structure and data.
+ASP.NET Setup:
+
+Use the .NET 6.0 framework for your project.
+Install the Dapper library, version 2.0.123, into your project.
+Install the Microsoft.Data.SqlClient library, version 5.2.1.
+In your appsettings.json file, add the connection strings for your database. For example: "Server=(localdb)\\MSSQLLocalDB; Database=DapperMVCDemo; Trusted_Connection=true;".
